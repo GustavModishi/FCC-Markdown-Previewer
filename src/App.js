@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-import {FaFreeCodeCamp} from 'react-icons/fa';
+import {LiaFreeCodeCamp} from 'react-icons/lia';
 
 
 function App() {
@@ -55,7 +55,7 @@ function App() {
   return (
     <div className="App">
       <div className="editor-wrap">
-      <div className="top-bar"><span><FaFreeCodeCamp />Editor</span></div>
+      <div className="top-bar"><i><LiaFreeCodeCamp/> </i><span>Editor</span></div>
       <textarea 
       id="editor"
       value={text}
@@ -64,7 +64,7 @@ function App() {
       </textarea>
       </div>
       <div className="preview-wrap">
-      <div className="top-bar"><span><FaFreeCodeCamp />Previewer</span></div>
+      <div className="top-bar"><i><LiaFreeCodeCamp/> </i><span> Previewer</span></div>
       <div id="preview">
     
         <ReactMarkdown>{text}</ReactMarkdown>

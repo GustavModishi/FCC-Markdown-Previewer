@@ -60,6 +60,11 @@ text-align: left;
       font-size: 1rem;
       color: black;
       align-items: start;
+
+      i {
+        font-size: 20px;
+        margin-bottom: 0%;
+      }
       }
     
     
@@ -68,6 +73,8 @@ text-align: left;
     max-width: 1200px;
     margin: 1.125rem auto;
     padding-top: 2vh;
+
+
     #preview {
      
       height: 80vh;

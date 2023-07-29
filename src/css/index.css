@@ -44,6 +44,10 @@ body, #root {
   color: black;
   align-items: start;
 }
+.App .top-bar i {
+  font-size: 20px;
+  margin-bottom: 0%;
+}
 .App .preview-wrap {
   max-width: 1200px;
   margin: 1.125rem auto;
