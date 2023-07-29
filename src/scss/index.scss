@@ -1,0 +1,88 @@
+body, #root {
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+.App{
+
+  text-align: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+
+text-align: left;
+  .editor-wrap {
+    max-width: 600px;
+    margin: 1.125rem auto;
+    padding-top: 2vh;
+    #editor {
+    
+      
+      font-size: 18px;
+      background-color: #9b9898;
+      color:  rgb(0, 0, 0);
+    
+      overflow: auto;
+      text-align: left;
+     
+      width: 594px;
+      min-height: 200px;
+    
+      resize: vertical;
+      outline: none;
+     
+      font-size: 0.875rem;
+      font-size: 18px;
+      background-color: #9b9898;
+      color: rgb(0, 0, 0);
+
+    }
+     
+      
+  
+    
+    }
+
+  
+    .top-bar{
+      display: flex;
+      align-items: center;
+      background-color: #da3737;
+      padding: 0.3rem;
+      border: 1px solid #1d2f2f;
+      box-shadow: 1px 1px 10px 2px #3a5f5f;
+      font-family: Russo One;
+      font-size: 1rem;
+      color: black;
+      align-items: start;
+      }
+    
+    
+  .preview-wrap {
+
+    max-width: 1200px;
+    margin: 1.125rem auto;
+    padding-top: 2vh;
+    #preview {
+     
+      height: 80vh;
+      
+      font-size: 18px;
+      background-color: #9b9898;
+      color:  rgb(0, 0, 0);
+      padding: 10px;
+      overflow: auto;
+      text-align: left;
+    }
+  }
+
+  
+  img {
+    max-width: 100%;
+  }
+}
